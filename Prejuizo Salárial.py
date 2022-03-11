@@ -32,10 +32,10 @@ def calculo(salario, hrs, salario_minimo):
     salario_diario_certo = salario_certo / 28
     prejuizo_diario = salario_diario_certo - salario_diario
     Pd = int (prejuizo_diario)
-    impressão (Pa, Pd, Pm, Sc, salario1)
+    impressão (Pd, Pm, Pa, Sc, salario1)
 
 # Função da Impressão 
-def impressão (Pa, Pd, Pm , Sc, salario1):
+def impressão (Pd, Pm, Pa, Sc, salario1):
     print ("\nCalculamos que:")
     print ("Para as horas que você trabalha, o salário correto seria: R$",Sc,"reais , invés de: R$", salario1,"reais")
     print ("Ganhando o que você ganha dentro de sua carga horária, seu prejuizo é de:")
